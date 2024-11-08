@@ -4,9 +4,7 @@ package com.mycompany.proyectogrupalpoo;
  *
  * @author Emanuel
  */
-// Superclase abstracta
 public abstract class Persona {
-    // Propiedades protegidas (encapsulamiento)
     protected String nombre;
     protected int edad;
 

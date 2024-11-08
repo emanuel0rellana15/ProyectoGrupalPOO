@@ -4,13 +4,18 @@
 
 package com.mycompany.proyectogrupalpoo;
 
-/**
- *
- * @author Daniel
- */
 public class ProyectoGrupalPOO {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Doctor doctor = new Doctor("Juan Perez", 45, "Cardiologia");
+        doctor.saludar();                
+        doctor.mostrarInformacion();       
+        doctor.diagnosticar();            
+
+        System.out.println(); 
+
+        Deportista deportista = new Deportista("Luis Gomez", 30, "Futbol");
+        deportista.saludar();              
+        deportista.mostrarInformacion();   
+        deportista.entrenar();             
     }
 }
